@@ -18,6 +18,23 @@
 
     <!-- Main Style CSS -->
     <link rel="stylesheet" href="assets/css/style.min.css" />
+    <style>
+      @media only screen and (max-width: 575px) {
+        .hero-content h2 {
+          font-size: 1.5rem !important;
+          text-align: middle;
+        }
+
+        .hero-content h5 {
+          font-size: 1rem !important;
+          text-align: middle;
+        }
+
+        .hero-content {
+          margin-top: 250px !important;
+        }
+      }
+    </style>
   </head>
 
   <body>
@@ -136,20 +153,19 @@
           align-items: start;
         "
       >
-        " >
         <div class="container">
           <div class="row justify-content-start">
             <div class="col-lg-12">
-              <div class="hero-content text-start">
+              <div class="hero-content text-start text-md-start">
                 <h2
                   class="text-white position-relative"
-                  style="font-size: 2.2rem; font-weight: bold"
+                  style="font-size: 2rem; font-weight: bold"
                 >
                   SANATHANA SANKARI PEETAM
                 </h2>
                 <h5
-                  class="text-white position-relative"
-                  style="font-size: 1.25rem; font-weight: 600"
+                  class="text-white position-relative mt-2"
+                  style="font-size: 1rem; font-weight: 600"
                 >
                   Dharmam Saranam Gachchami
                 </h5>

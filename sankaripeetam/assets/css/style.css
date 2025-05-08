@@ -2941,6 +2941,7 @@ input[type="checkbox"] {
   align-items: center;
   height: 720px;
 }
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .hero-style-01 {
     height: 600px;
@@ -2951,18 +2952,39 @@ input[type="checkbox"] {
     height: 450px;
   }
 }
+
 @media only screen and (max-width: 767px) {
   .hero-style-01 {
     height: 440px;
+    
   }
 }
+
 
 @media only screen and (max-width: 575px) {
   .hero-content br {
     display: none;
   }
+
+  .hero-content {
+    font-size: 10px;
+    margin-top: 50px;
+    text-align: center;
+    padding: 0 15px;
+  }
+
+  .hero-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .hero-content h5 {
+    font-size: 1rem;
+  }
 }
 
+
+
+ /* .muslim-hero-bg */
 .muslim-hero-bg {
   background: url(../images/hero/muslim-hero-bg-01.png);
   background-size: cover;
@@ -4171,7 +4193,7 @@ input[type="checkbox"] {
 }
 
 #googleMap-1 {
-  height: 600px;
+  height: 400px;
   border-radius: 5px;
 }
 @media only screen and (max-width: 767px),
@@ -4180,7 +4202,9 @@ input[type="checkbox"] {
     height: 400px;
     margin-bottom: 30px;
   }
+  
 }
+
 
 .contact-form__one .contact-input {
   margin-bottom: 30px;
